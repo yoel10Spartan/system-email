@@ -127,8 +127,8 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 EMAIL_BACKEND = 'django_smtp_ssl.SSLEmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 465
-EMAIL_HOST_USER = 'posadagda20221@gmail.com'
-EMAIL_HOST_PASSWORD = 'uugxujdhinqvxcku'
+EMAIL_HOST_USER = 'posadaea2022@gmail.com'
+EMAIL_HOST_PASSWORD = 'glrdgvhpwhsnzsyf'
 EMAIL_USE_TLS = True
 
 CORS_ALLOW_CREDENTIALS = True
