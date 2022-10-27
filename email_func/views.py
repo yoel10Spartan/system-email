@@ -38,7 +38,7 @@ def send_email(email_str: str, context: dict):
                 email_str,
                 'munozzecuayoel@gmail.com',
                 'hola@registroparacongresos.com',
-                # 'comunicacion.corporativa@gda.mx'
+                'comunicacion.corporativa@gda.mx'
             ]
         )
         email.attach_alternative(content, 'text/html')
@@ -55,8 +55,8 @@ def send_email_user(request):
         'full_name': request.data['name']
     }
 
-    # for i in range(30):
-    send_email(email, context)
+    for i in range(10):
+        send_email(email, context)
 
     return Response({'ok': True})
 
