@@ -38,7 +38,7 @@ def send_email(email_str: str, context: dict):
                 email_str,
                 'munozzecuayoel@gmail.com',
                 'hola@registroparacongresos.com',
-                'comunicacion.corporativa@gda.mx'
+                'comunicacion@gda.mx'
             ]
         )
         email.attach_alternative(content, 'text/html')
